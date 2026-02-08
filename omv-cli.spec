@@ -14,11 +14,10 @@ Source0:  %{name}-%{version}.tar.zst
 Requires:  hos-cli
 
 Requires:  bash
-Requires:  bwrap
+Requires:  bubblewrap
 Requires:  car
 Requires:  curl
-Requires:  rpmbuild
-Requires:  rpmspec
+Requires:  rpm-build
 
 Recommends:  pv
 
